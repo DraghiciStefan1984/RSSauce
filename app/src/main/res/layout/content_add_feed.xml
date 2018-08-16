@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.personalrssfeed.draghicistefan.rssauce.AddFeedActivity"
+    tools:showIn="@layout/activity_add_feed">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addFeedNameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignRight="@+id/addFeeEditText"
+        android:layout_alignEnd="@+id/addFeeEditText"
+        android:hint="@string/add_rss_feed_name_hint"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addFeeEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="83dp"
+        android:hint="@string/add_rss_feed_address_hint"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Feed"
+        android:id="@+id/addFeedButton"
+        android:layout_below="@+id/addFeeEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorLightText"/>
+
+
+</RelativeLayout>

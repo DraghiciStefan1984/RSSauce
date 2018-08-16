@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RSSauce</string>
+    <string name="action_settings">Manage Rss Feeds</string>
+    <string name="title_activity_add_feed">Add Feed</string>
+    <string name="title_activity_edit_rss_feed">Edit Rss Feed</string>
+    <string name="add_rss_feed_name_hint">Add Rss Feed Name</string>
+    <string name="add_rss_feed_address_hint">Add Rss Feed Address</string>
+    <string name="title_activity_rss_item_view">Rss</string>
+</resources>
